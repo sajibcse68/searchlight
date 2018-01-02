@@ -3,7 +3,7 @@ title: Pod Alert Overview
 menu:
   product_searchlight_5.0.0:
     identifier: pod-alert-overview
-    name: Overview
+    name: Pod Alert
     parent: alert-types
     weight: 15
 product_name: searchlight

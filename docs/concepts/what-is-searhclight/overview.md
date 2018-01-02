@@ -1,6 +1,6 @@
 ---
-title: Overview of Searchlight
-description: Overview of Searchlight
+title: Searchlight Overview
+description: Searchlight Overview
 menu:
   product_searchlight_5.0.0:
     identifier: overview-concepts

@@ -3,7 +3,7 @@ title: Node Alert Overview
 menu:
   product_searchlight_5.0.0:
     identifier: node-alert-overview
-    name: Overview
+    name: Node Alert
     parent: alert-types
     weight: 10
 product_name: searchlight

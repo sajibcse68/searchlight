@@ -3,7 +3,7 @@ title: Cluster Alert Overview
 menu:
   product_searchlight_5.0.0:
     identifier: cluster-alert-overview
-    name: Overview
+    name: Cluster Alert
     parent: alert-types
     weight: 5
 product_name: searchlight
