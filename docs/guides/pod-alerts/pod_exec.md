@@ -155,7 +155,7 @@ To cleanup the Kubernetes resources created by this tutorial, run:
 $ kubectl delete ns demo
 ```
 
-If you would like to uninstall Searchlight operator, please follow the steps [here](/docs/uninstall.md).
+If you would like to uninstall Searchlight operator, please follow the steps [here](/docs/setup/uninstall.md).
 
 
 ## Next Steps
