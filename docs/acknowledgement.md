@@ -6,7 +6,7 @@ menu:
     identifier: acknowledgement-searchlight
     name: Acknowledgement
     parent: welcome
-    weight: 35
+    weight: 20
 product_name: searchlight
 menu_name: product_searchlight_5.0.0
 section_menu_id: welcome

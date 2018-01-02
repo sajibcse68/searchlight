@@ -6,7 +6,7 @@ menu:
     identifier: roadmap-searchlight
     name: Roadmap
     parent: welcome
-    weight: 30
+    weight: 15
 product_name: searchlight
 menu_name: product_searchlight_5.0.0
 section_menu_id: welcome
