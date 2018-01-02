@@ -35,7 +35,7 @@ $ kubectl apply -f https://raw.githubusercontent.com/appscode/searchlight/5.0.0/
 
 ## Using Helm
 Searchlight can be installed via [Helm](https://helm.sh/) using the [chart](https://github.com/appscode/searchlight/blob/master/chart/stable/searchlight) included in this repository. To install the chart with the release name `my-release`:
-```bash
+```console
 $ helm repo update
 $ helm install stable/searchlight --name my-release
 ```
