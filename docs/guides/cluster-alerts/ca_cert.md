@@ -19,10 +19,12 @@ Check command `ca_cert` checks the expiration timestamp of Kubernetes api server
 
 ## Spec
 `ca_cert` check command has the following variables:
+
 - `warning` - Condition for warning, compare with tiem left before expiration. (Default: TTL < 360h)
 - `critical` - Condition for critical, compare with tiem left before expiration. (Default: TTL < 120h)
 
 Execution of this command can result in following states:
+
 - OK
 - WARNING
 - CRITICAL
