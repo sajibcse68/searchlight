@@ -28,7 +28,7 @@ From here you can learn all about Searchlight's architecture and how to deploy a
 - [Setup](/docs/setup/). Setup contains instructions for installing
   the Searchlight in various cloud providers.
 
-- [Guides](/docs/guides/). Guides show you how to perform tasks with Searchlight. These are organized under [Ingress](/docs/guides/ingress) and [Certificate](/docs/guides/certificate).
+- [Guides](/docs/guides/). Guides show you how to perform tasks with Searchlight.
 
 - [Reference](/docs/reference/). Detailed exhaustive lists of command-line options, configuration options, API definitions, and procedures.
 
