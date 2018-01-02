@@ -20,11 +20,13 @@ Check command `pod_exec` is used to check status of a command run inside Kuberne
 
 ## Spec
 `pod_exec` check command has the following variables:
+
 - `container` - Container name in a Kubernetes Pod
 - `cmd` - Exec command. [Default: '/bin/sh']
 - `argv` - Exec command arguments. [Format: 'arg; arg; arg']
 
 Execution of this command can result in following states:
+
 - OK
 - CRITICAL
 - UNKNOWN

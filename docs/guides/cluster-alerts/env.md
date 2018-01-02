@@ -20,6 +20,7 @@ Check command `env` prints the list of environment variables in searchlight-oper
 
 ## Spec
 `env` check command has no variables. Execution of this command can result in following states:
+
 - OK
 - WARNING
 - CRITICAL

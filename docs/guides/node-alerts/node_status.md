@@ -19,6 +19,7 @@ Check command `node_status` is used to check status of Kubernetes Nodes. Returns
 
 ## Spec
 `node_status` check command has no variables. Execution of this command can result in following states:
+
 - OK
 - CRITICAL
 - UNKNOWN

@@ -20,11 +20,13 @@ Check command `pod_exists` is used to check existence of pods in a Kubernetes cl
 
 ## Spec
 `pod_exists` has the following variables:
+
 - `selector` - Label selector for pods whose existence are checked.
 - `podName` - Name of Kubernetes pod whose existence is checked.
 - `count` - Number of expected Kubernetes pods
 
 Execution of this command can result in following states:
+
 - OK
 - CRITICAL
 - UNKNOWN

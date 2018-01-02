@@ -19,6 +19,7 @@ Check command `json_path` is used to check JSON HTTP response using [jq](https:/
 
 ## Spec
 `json_path` check command has no variables.
+
 - `url` - URL to get data
 - `secretName` - Name of Kubernetes Secret used to call HTTP api.
 - `inClusterConfig` - Use InClusterConfig if hosted in Kubernetes
@@ -38,6 +39,7 @@ The following keys are supported for Secret passed via `secretName` flag.
 | `INSECURE_SKIP_VERIFY` | `Optional` If set to `true`, skip certificate verification. |
 
 Execution of this command can result in following states:
+
 - OK
 - WARNING
 - CRITICAL

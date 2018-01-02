@@ -19,12 +19,14 @@ Check command `pod_volume` is used to check percentage of available space in Kub
 
 ## Spec
 `pod_volume` check command has the following variables:
+
 - `volumeName` - Name of volume whose usage stats will be checked
 - `secretName` - Name of Kubernetes Secret used to pass [hostfacts auth info](/docs/concepts/hostfacts.md#create-hostfacts-secret)
 - `warning` - Warning level value (usage percentage defaults to 80.0)
 - `critical` - Critical level value (usage percentage defaults to 95.0)
 
 Execution of this command can result in following states:
+
 - OK
 - WARNING
 - CRITICAL

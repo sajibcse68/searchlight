@@ -20,11 +20,13 @@ Check command `node_exists` is used to check existence of nodes in a Kubernetes 
 
 ## Spec
 `node_exists` has the following variables:
+
 - `selector` - Label selector for nodes whose existence are checked.
 - `nodeName` - Name of Kubernetes node whose existence is checked.
 - `count` - Number of expected Kubernetes nodes
 
 Execution of this command can result in following states:
+
 - OK
 - CRITICAL
 - UNKNOWN

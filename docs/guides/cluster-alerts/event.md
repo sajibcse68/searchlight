@@ -28,6 +28,7 @@ Check command `event` is used to check Kubernetes events. This plugin checks for
 - `involvedObjectUID` - UID of involved object used to select events
 
 Execution of this command can result in following states:
+
 - OK
 - WARNING
 - UNKNOWN

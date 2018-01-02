@@ -20,6 +20,7 @@ Check command `influx_query` is used to check InfluxDB query result.
 
 ## Spec
 `influx_query` check command has the following variables.
+
 - `influxHost` - URL of InfluxDB host to query
 - `secretName` - Name of Secret used for InfluxDB authentication
 - `A` - InfluxDB query (A). Query result will be assigned to variable (A)
@@ -34,6 +35,7 @@ Check command `influx_query` is used to check InfluxDB query result.
 Here `A`, `B`, `C`, `D`, `E` are processed as a GO template generating the final InfluxDB query. The available template variables are: PodName, PodIP and Namespace.
 
 Execution of this command can result in following states:
+
 - OK
 - WARNING
 - CRITICAL

@@ -20,6 +20,7 @@ Check command `pod_status` is used to check status of Kubernetes pods. Returns O
 
 ## Spec
 `pod_status` check command has no variables. Execution of this command can result in following states:
+
 - OK
 - CRITICAL
 - UNKNOWN

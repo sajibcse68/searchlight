@@ -20,10 +20,12 @@ Check command `component_status` is used to check status of Kubernetes component
 
 ## Spec
 `component_status` has the following variables:
+
 - `selector` - Label selector for components whose existence are checked.
 - `componentName` - Name of Kubernetes component whose existence is checked.
 
 Execution of this command can result in following states:
+
 - OK
 - CRITICAL
 - UNKNOWN
