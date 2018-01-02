@@ -39,7 +39,7 @@ Searchlight can be installed via [Helm](https://helm.sh/) using the [chart](http
 $ helm repo update
 $ helm install stable/searchlight --name my-release
 ```
-To see the detailed configuration options, visit [here](https://github.com/appscode/searchlight/blob/master/chart/stable/searchlight/README.md).
+To see the detailed configuration options, visit [here](https://github.com/appscode/searchlight/tree/master/chart/stable/searchlight).
 
 
 ## Verify installation
