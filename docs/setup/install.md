@@ -21,7 +21,7 @@ aliases:
 ## Using YAML
 [![Install Searchlight](https://img.youtube.com/vi/Po4yXrQuHtQ/0.jpg)](https://www.youtube-nocookie.com/embed/Po4yXrQuHtQ)
 
-Searchlight can be installed using YAML files includes in the [/hack/deploy](/hack/deploy) folder.
+Searchlight can be installed using YAML files includes in the [/hack/deploy](https://github.com/appscode/searchlight/blob/master/hack/deploy) folder.
 
 ```console
 # Install without RBAC roles
@@ -34,12 +34,12 @@ $ kubectl apply -f https://raw.githubusercontent.com/appscode/searchlight/5.0.0/
 
 
 ## Using Helm
-Searchlight can be installed via [Helm](https://helm.sh/) using the [chart](/chart/stable/searchlight) included in this repository. To install the chart with the release name `my-release`:
+Searchlight can be installed via [Helm](https://helm.sh/) using the [chart](https://github.com/appscode/searchlight/blob/master/chart/stable/searchlight) included in this repository. To install the chart with the release name `my-release`:
 ```bash
 $ helm repo update
 $ helm install stable/searchlight --name my-release
 ```
-To see the detailed configuration options, visit [here](/chart/stable/searchlight/README.md).
+To see the detailed configuration options, visit [here](https://github.com/appscode/searchlight/blob/master/chart/stable/searchlight/README.md).
 
 
 ## Verify installation
