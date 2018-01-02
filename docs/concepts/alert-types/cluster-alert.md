@@ -4,11 +4,11 @@ menu:
   product_searchlight_5.0.0:
     identifier: cluster-alert-overview
     name: Overview
-    parent: cluster-alert
+    parent: alert-types
     weight: 5
 product_name: searchlight
 menu_name: product_searchlight_5.0.0
-section_menu_id: guides
+section_menu_id: concepts
 ---
 
 > New to Searchlight? Please start [here](/docs/concepts/README.md).
