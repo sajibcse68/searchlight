@@ -49,8 +49,9 @@ type: Opaque
 ```
 
 Now, to receiver notifications via Hipchat, configure receiver as below:
- - notifier: `Hipchat`
- - to: a list of chat room names
+
+- notifier: `Hipchat`
+- to: a list of chat room names
 
 ```yaml
 apiVersion: monitoring.appscode.com/v1alpha1
@@ -114,8 +115,9 @@ type: Opaque
 ```
 
 Now, to receiver notifications via Mailgun, configure receiver as below:
- - notifier: `Mailgun`
- - to: a list of email addresses
+
+- notifier: `Mailgun`
+- to: a list of email addresses
 
 ```yaml
 apiVersion: monitoring.appscode.com/v1alpha1
@@ -178,8 +180,9 @@ $ echo -n 'your-gmail-address' > SMTP_FROM
 ```
 
 Now, to receiver notifications via SMTP, configure receiver as below:
- - notifier: `SMTP`
- - to: a list of email addresses
+
+- notifier: `SMTP`
+- to: a list of email addresses
 
 ```yaml
 apiVersion: monitoring.appscode.com/v1alpha1
@@ -240,8 +243,9 @@ type: Opaque
 ```
 
 Now, to receiver notifications via SMTP, configure receiver as below:
- - notifier: `Twilio`
- - to: a list of receiver mobile numbers
+
+- notifier: `Twilio`
+- to: a list of receiver mobile numbers
 
 ```yaml
 apiVersion: monitoring.appscode.com/v1alpha1
@@ -293,8 +297,9 @@ type: Opaque
 ```
 
 Now, to receiver notifications via Hipchat, configure receiver as below:
- - notifier: `Slack`
- - to: a list of chat room names
+
+- notifier: `Slack`
+- to: a list of chat room names
 
 ```yaml
 apiVersion: monitoring.appscode.com/v1alpha1
@@ -354,8 +359,9 @@ type: Opaque
 ```
 
 Now, to receiver notifications via SMTP, configure receiver as below:
- - notifier: `Plivo`
- - to: a list of receiver mobile numbers
+
+- notifier: `Plivo`
+- to: a list of receiver mobile numbers
 
 ```yaml
 apiVersion: monitoring.appscode.com/v1alpha1
@@ -432,8 +438,9 @@ type: Opaque
 ```
 
 Now, to receiver notifications via Pushover.net, configure receiver as below:
- - notifier: `Pushover`
- - to: a list of devices where notifications will be sent. If list is empty, all devices will be notified.
+
+- notifier: `Pushover`
+- to: a list of devices where notifications will be sent. If list is empty, all devices will be notified.
 
 ```yaml
 apiVersion: monitoring.appscode.com/v1alpha1
