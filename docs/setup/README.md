@@ -17,3 +17,11 @@ aliases:
 # Setup
 
 Setup contains instructions for installing the Searchlight and its various components in Kubernetes.
+
+- [Install Searchlight](/docs/setup/install.md). Installation instructions for Searchlight.
+- [Install Hostfacts](/docs/setup/hostfacts.md). Installation instructions for Hostfacts.
+- [Generate Certificates](/docs/setup/certificate.md). Instructions for generating self-signed certificates.
+- [Uninstall Searchlight](/docs/setup/uninstall.md). Instructions for uninstallating Searchlight.
+- Developer Guide
+  - [Overview](/docs/setup/developer-guide/overview.md). Outlines everything you need to know from setting up your dev environment to how to build and test Searchlight.
+  - [Release process](/docs/setup/developer-guide/release.md). Steps for releasing a new version of Searchlight.
