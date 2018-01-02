@@ -42,7 +42,7 @@ If you have a question about Searchlight or having problem using it, you can con
 
 ## Bugs/Feature request
 
-If you have found a bug with Searchlight or want to request for new features, please [file an issue](https://github.com/appscode/searchlight/issues/new). 
+If you have found a bug with Searchlight or want to request for new features, please [file an issue](https://github.com/appscode/searchlight/issues/new).
 
 ## Submit PR
 
