@@ -1,6 +1,6 @@
 ---
-title: Readme
-description: Readme of guides
+title: Table of Contents | Guides
+description: Table of Contents | Guides
 menu:
   product_searchlight_5.0.0:
     identifier: guides-readme
@@ -14,10 +14,9 @@ url: /products/searchlight/5.0.0/guides/
 aliases:
   - /products/searchlight/5.0.0/guides/README/
 ---
-
 # Guides
 
-This section contains guides on how to use Searchlight. Please visit the links below to learn more:
+Guides show you how to perform tasks with Searchlight.
 
 - [ClusterAlerts](/docs/concepts/alert-types/cluster-alert.md) - This article introduces the concept of `ClusterAlert` to periodically run various checks on a Kubernetes cluster. Also, visit the links below to learn about the available check commands for a cluster:
   - [ca_cert](/docs/guides/cluster-alerts/ca_cert.md) - To check expiration of CA certificate used by Kubernetes api server.
