@@ -19,7 +19,7 @@ aliases:
 
 This section contains guides on how to use Searchlight. Please visit the links below to learn more:
 
- - [ClusterAlerts](/docs/guides/cluster-alerts/README.md) - This article introduces the concept of `ClusterAlert` to periodically run various checks on a Kubernetes cluster. Also, visit the links below to learn about the available check commands for a cluster:
+ - [ClusterAlerts](/docs/concepts/alert-types/cluster-alert.md) - This article introduces the concept of `ClusterAlert` to periodically run various checks on a Kubernetes cluster. Also, visit the links below to learn about the available check commands for a cluster:
     - [ca_cert](/docs/guides/cluster-alerts/ca_cert.md) - To check expiration of CA certificate used by Kubernetes api server.
     - [component_status](/docs/guides/cluster-alerts/component_status.md) - To check Kubernetes component status.
     - [event](/docs/guides/cluster-alerts/event.md) - To check Kubernetes Warning events.
@@ -27,12 +27,12 @@ This section contains guides on how to use Searchlight. Please visit the links b
     - [node_exists](/docs/guides/cluster-alerts/node_exists.md) - To check existence of Kubernetes nodes.
     - [pod_exists](/docs/guides/cluster-alerts/pod_exists.md) - To check existence of Kubernetes pods.
 
- - [NodeAlerts](/docs/guides/node-alerts/README.md) - This article introduces the concept of `NodeAlert` to periodically run various checks on nodes in a Kubernetes cluster. Also, visit the links below to learn about the available check commands for nodes:
+ - [NodeAlerts](/docs/concepts/alert-types/node-alert.md) - This article introduces the concept of `NodeAlert` to periodically run various checks on nodes in a Kubernetes cluster. Also, visit the links below to learn about the available check commands for nodes:
     - [influx_query](/docs/guides/node-alerts/influx_query.md) - To check InfluxDB query result.
     - [node_status](/docs/guides/node-alerts/node_status.md) - To check Kubernetes Node status.
     - [node_volume](/docs/guides/node-alerts/node_volume.md) - To check Node Disk stat.
 
- - [PodAlerts](/docs/guides/pod-alerts/README.md) - This article introduces the concept of `PodAlert` to periodically run various checks on pods in a Kubernetes cluster. Also, visit the links below to learn about the available check commands for pods:
+ - [PodAlerts](/docs/concepts/alert-types/pod-alert.md) - This article introduces the concept of `PodAlert` to periodically run various checks on pods in a Kubernetes cluster. Also, visit the links below to learn about the available check commands for pods:
     - [influx_query](/docs/guides/pod-alerts/influx_query.md) - To check InfluxDB query result.
     - [pod_exec](/docs/guides/pod-alerts/pod_exec.md) - To check Kubernetes exec command. Returns OK if exit code is zero, otherwise, returns CRITICAL
     - [pod_status](/docs/guides/pod-alerts/pod_status.md) - To check Kubernetes pod status.
