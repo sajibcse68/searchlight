@@ -12,7 +12,7 @@ menu_name: product_searchlight_5.0.0
 section_menu_id: setup
 ---
 
-> New to Searchlight? Please start [here](/docs/guides/README.md).
+> New to Searchlight? Please start [here](/docs/concepts/README.md).
 
 # Certificate
 

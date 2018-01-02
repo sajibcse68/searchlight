@@ -13,7 +13,7 @@ section_menu_id: setup
 ---
 
 
-> New to Searchlight? Please start [here](/docs/guides/README.md).
+> New to Searchlight? Please start [here](/docs/concepts/README.md).
 
 # Uninstall Searchlight
 Please follow the steps below to uninstall Searchlight:

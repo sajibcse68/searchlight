@@ -12,7 +12,7 @@ menu_name: product_searchlight_5.0.0
 section_menu_id: guides
 ---
 
-> New to Searchlight? Please start [here](/docs/guides/README.md).
+> New to Searchlight? Please start [here](/docs/concepts/README.md).
 
 # Supported Notifiers
 Searchlight can send notifications via Email, SMS or Chat for alerts using [appscode/go-notify](https://github.com/appscode/go-notify) library. To connect to these services, you need to create a Secret with the appropriate keys. Then pass the secret name to Searchlight by setting `spec.notifierSecretName` field in ClusterAlert/NodeAlert/PodAlert objects. __This Secret must exist in the same namespace where the Alert object exists.__ To easily synchronize this Secret across all current and future namespaces of a Kubernetes cluster, you can use [kubed](https://github.com/appscode/kubed/blob/master/docs/guides/config-syncer.md).

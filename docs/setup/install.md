@@ -14,7 +14,7 @@ aliases:
   - /products/searchlight/5.0.0/setup/
 ---
 
-> New to Searchlight? Please start [here](/docs/guides/README.md).
+> New to Searchlight? Please start [here](/docs/concepts/README.md).
 
 # Installation Guide
 
