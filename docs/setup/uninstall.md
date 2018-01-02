@@ -6,7 +6,7 @@ menu:
     identifier: uninstall-searchlight
     name: Uninstall
     parent: setup
-    weight: 35
+    weight: 25
 product_name: searchlight
 menu_name: product_searchlight_5.0.0
 section_menu_id: setup
